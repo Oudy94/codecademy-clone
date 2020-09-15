@@ -107,6 +107,11 @@ nav a:active {
 /** header **/
 
 /** section1 **/
+
+.section1-right > label, .section1-right > button{
+    display: block;
+}
+
 .section1-right-start-button {
     background-color: #6400E4; 
     border: none;
