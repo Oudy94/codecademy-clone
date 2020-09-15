@@ -189,14 +189,6 @@ input[type=text], select {
     box-shadow: 0 4px 8px 0px gray;
 }
 
-.section2-container{
-    display: flex;
-    position: relative;
-    background-color: #F0F3FF;
-    margin: auto;
-    justify-content: center;
-}
-
 .section1-footer{
 
     background-image: url(images/section1-footer.svg);
@@ -209,6 +201,14 @@ input[type=text], select {
 /* #endregion section1 */
 
 /* #region section2 */
+.section2-container{
+    display: flex;
+    position: relative;
+    background-color: #F0F3FF;
+    margin: auto;
+    justify-content: center;
+}
+
 .section2-image{
     overflow: hidden;
 }
@@ -217,6 +217,7 @@ input[type=text], select {
     background-color: #6400e4;
     padding: 4rem;
     color: white;
+    
 }
 
 .section2-quiz-button{
@@ -277,6 +278,24 @@ footer ul{
     nav{
         width: 90%;
     }
+
+    .section1-right{
+        left: 0;
+        padding: 1rem;
+    }
+
+    html{
+        font-size: 42.5%;
+    }
+
+    .section2-image{
+        display: none;
+    }
+
+    .section2-title-container{
+        text-align: center; 
+    }
+
 }
 /* #endregion mobile phones */
 
