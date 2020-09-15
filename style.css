@@ -10,16 +10,31 @@
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
 }
 
 h1{
-
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 900;
     font-family: Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-
 }
+
+.form-font {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+footer li{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
 /* #endregion Fonts */
+
+html{
+    font-size: 62.5%;
+}
 
 body{
     margin: 0;
@@ -57,51 +72,51 @@ nav{
 .nav-list{
     list-style: none;
     padding: 0;
-    margin-left: 10px;
+    margin-left: 1rem;
  
 }
 
 .nav-list li{
     display: inline-block;
-    margin: 0px;
+    margin: 0rem;
 }
 
 nav a{
     text-decoration: none;
     color: #141C3A;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
-    padding:10px;
+    padding:1rem;
 }
 
 nav a:active {
     border: 2px solid #141C3A;
     border-radius: 8px;
-    margin:-2px;
+    margin:-0.2rem;
 }
 
 .nav-login-button {
     background-color: white;
     border: none;
     color: #141C3A;;
-    padding: 15px 32px;
+    padding: 1.5rem 3.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin:5px;
+    font-size: 1.6rem;
+    margin: .5rem;
 }
 
 .nav-signup-button {
     background-color: #6400E4;
     border: none;
     color: white;
-    padding: 12px 24px;
+    padding: 1.2rem 2.4rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin:5px;
+    font-size: 1.6rem;
+    margin:.5rem;
     border-radius: 3px;
 }
 /* #endregion header */
@@ -116,11 +131,11 @@ nav a:active {
     background-color: #6400E4; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1.5rem 3.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     width: 300px;
 }
 
@@ -144,7 +159,7 @@ nav a:active {
     left: 7px;
     color: White;
     background-color: #6400E4;
-    padding: 0px 45px;
+    padding: 0rem 4.5rem;
 }
 
 .section1-right{
@@ -157,8 +172,8 @@ nav a:active {
 input[type=text], select {
     width: 300px;
     height: 50px;
-    padding: 12px 20px;
-    margin: 10px 0 30px 0;
+    padding: 1.2rem 2rem;
+    margin: 1rem 0 3rem 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 2px;
@@ -167,9 +182,9 @@ input[type=text], select {
 
 .section1-right-icon{
 
-    margin: 5px;
+    margin: .5rem;
     border: 1px solid rgb(224, 224, 224);
-    padding: 10px 25px;
+    padding: 1rem 2.5rem;
 
 }
 
@@ -204,7 +219,7 @@ input[type=text], select {
 
 .section2-title-container{
     background-color: #6400e4;
-    padding: 40px;
+    padding: 4rem;
     color: white;
 }
 
@@ -212,11 +227,11 @@ input[type=text], select {
     background-color: #f6fa0b;
     border: none;
     color: black;
-    padding: 15px 10px;
+    padding: 1.5rem 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     width: 180px;
     border-radius: 20px;
 }
@@ -231,13 +246,13 @@ input[type=text], select {
 .footer-links{
     display: flex;
     width: 78%;
-    margin: 20px auto;
+    margin: 2rem auto;
     justify-content: space-around;
 }
 
 .footer-copyright{
     display: flex;
-    margin: 20px auto;
+    margin: 2rem auto;
     justify-content: space-around;
     border-top: 1px solid lightgray;
 }
@@ -286,7 +301,7 @@ footer ul{
     }
 
     nav a{
-        padding:3px;
+        padding: .3rem;
     }
 
 }
