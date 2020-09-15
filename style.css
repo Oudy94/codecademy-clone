@@ -41,6 +41,16 @@ body{
     padding: 0;
 }
 
+/* #region common */
+.button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+/* endregion common */
+
 /* #region header */
 header{
     position: fixed;
@@ -97,25 +107,16 @@ nav a:active {
 
 .nav-login-button {
     background-color: white;
-    border: none;
     color: #141C3A;;
     padding: 1.5rem 3.2rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
     margin: .5rem;
 }
 
+
 .nav-signup-button {
     background-color: #6400E4;
-    border: none;
     color: white;
     padding: 1.2rem 2.4rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
     margin:.5rem;
     border-radius: 3px;
 }
@@ -129,13 +130,8 @@ nav a:active {
 
 .section1-right-start-button {
     background-color: #6400E4; 
-    border: none;
     color: white;
     padding: 1.5rem 3.2rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
     width: 300px;
 }
 
@@ -225,13 +221,8 @@ input[type=text], select {
 
 .section2-quiz-button{
     background-color: #f6fa0b;
-    border: none;
     color: black;
     padding: 1.5rem 1rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
     width: 180px;
     border-radius: 20px;
 }
