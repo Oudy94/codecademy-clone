@@ -1,4 +1,4 @@
-/** Fonts **/
+/* #region Fonts */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -19,14 +19,14 @@ h1{
     font-family: Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 
 }
-/** Fonts **/
+/* #endregion Fonts */
 
 body{
     margin: 0;
     padding: 0;
 }
 
-/** header **/
+/* #region header */
 header{
     position: fixed;
     width: 100%;
@@ -104,9 +104,9 @@ nav a:active {
     margin:5px;
     border-radius: 3px;
 }
-/** header **/
+/* #endregion header */
 
-/** section1 **/
+/* #region section1 */
 
 .section1-right > label, .section1-right > button{
     display: block;
@@ -195,9 +195,9 @@ input[type=text], select {
     background-size: 100% 100%;
 }
 
-/** section1 **/
+/* #endregion section1 */
 
-/** section2 **/
+/* #region section2 */
 .section2-image{
     overflow: hidden;
 }
@@ -225,9 +225,9 @@ input[type=text], select {
     color: yellow;
 }
 
-/** section2 **/
+/* #endregion section2 */
 
-/** footer **/
+/* #region footer */
 .footer-links{
     display: flex;
     width: 78%;
@@ -258,10 +258,10 @@ footer ul{
     margin:0;
 }
 
-/** footer **/
+/* #endregion footer */
 
-/*** Media Query ***/
-/** For mobile phones **/
+/* #region Media Query */
+/* #region mobile phones */
 @media only screen and (max-width: 600px) {
 
     .section1-left{
@@ -272,9 +272,9 @@ footer ul{
         width: 90%;
     }
 }
-/** For mobile phones **/
+/* #endregion mobile phones */
 
-/** For Tablets **/
+/* #region Tablets */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
     .section1-title-container{
@@ -290,5 +290,5 @@ footer ul{
     }
 
 }
-/** For Tablets **/
-/*** Media Query ***/
+/* #endregion Tablets */
+/* #endregion Media Query */
